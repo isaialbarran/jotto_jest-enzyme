@@ -66,3 +66,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+Link to proptypes info: 
+https://github.com/facebook/prop-types
+
+We use this utility check-prop-types to check our prop-types. Useful because return the error
