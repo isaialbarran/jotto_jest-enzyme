@@ -33,11 +33,11 @@ describe('if there are no words guessed', () => {
     });
     test('renders instructions to guess a word', () => {
         const instructions = findByTestAttr(wrapper, 'guess-instructions');
-        expect(instructions.text().length).not.toBe(0);
+        expect(instructions.text().length).not.toBe(0); //Peta
     });
 });
 
-describe('if there are  words guessed', () => {
+describe('if there are words guessed', () => {
     let wrapper;
      const guessedWords = [
         {guessedWord: 'train', letterMatchCount: 3},
@@ -59,4 +59,4 @@ describe('if there are  words guessed', () => {
         const guessedWordsNode = findByTestAttr(wrapper, 'guessed-word');
         expect(guessedWordsNode.length).toBe(guessedWords.length);
     });
-});
+}); 
